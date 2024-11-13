@@ -60,6 +60,9 @@ p {
 .weather-description {
   padding: 100px 60px;
 }
+.weather-img {
+  height: 100%;
+}
 
 @media (max-width: 900px) {
   .weather-description {
