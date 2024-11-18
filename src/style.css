@@ -88,12 +88,29 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
-.about-section {
-  padding: 150px 150px;
+.content-section {
+  padding: 50px 50px;
   margin: 30px 30px;
 }
-.about-section img {
+.content-section img {
   padding: 20px 20px;
   border-radius: 40px;
   margin: 20px 20px;
+}
+
+.work img {
+  height: 70%;
+  border-radius: 20px;
+}
+.work h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.work p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: var(--paragraph-color);
 }
