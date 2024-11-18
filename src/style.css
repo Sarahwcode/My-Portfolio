@@ -114,3 +114,29 @@ p {
   font-weight: lighter;
   color: var(--paragraph-color);
 }
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  line-height: 42px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--paragraph-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
