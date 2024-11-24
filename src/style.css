@@ -78,6 +78,9 @@ p {
   .h1-about-me {
     font-size: 30px;
   }
+  .hidden {
+    display: none;
+  }
 }
 .h1-about-me {
   font-size: 64px;
@@ -184,6 +187,4 @@ nav li.active a {
 h4 {
   font-size: 48px;
   font-family: var(--font-family);
-}
-.btn-branding-footer {
 }
