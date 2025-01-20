@@ -64,24 +64,6 @@ p {
   height: 100%;
 }
 
-@media (max-width: 900px) {
-  .weather-description {
-    padding: 0;
-    text-align: center;
-  }
-  h1 {
-    font-size: 65px;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .h1-about-me {
-    font-size: 30px;
-  }
-  .hidden {
-    display: none;
-  }
-}
 .h1-about-me {
   font-size: 64px;
   line-height: 1.5;
@@ -187,4 +169,22 @@ nav li.active a {
 h4 {
   font-size: 48px;
   font-family: var(--font-family);
+}
+@media (max-width: 900px) {
+  .weather-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .h1-about-me {
+    font-size: 30px;
+  }
+  .hidden {
+    display: none;
+  }
 }
