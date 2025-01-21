@@ -76,6 +76,8 @@ p {
 }
 .weather-img {
   height: 300px;
+  display: block;
+  margin: 0px;
 }
 
 .h1-about-me {
@@ -188,6 +190,7 @@ h4 {
   .weather-description {
     padding: 0;
     text-align: center;
+    padding-top: 5px;
   }
   h1 {
     font-size: 65px;
